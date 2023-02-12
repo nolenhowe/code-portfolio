@@ -1,0 +1,103 @@
+body {
+    background-color: white;
+}
+
+.header {
+    position: relative;
+    background-color: aqua;
+    color: red;
+    width: 100%;
+    height: 150px;
+}
+
+.header h1 {
+    padding: 20px;
+}
+
+.header nav {
+    position: absolute;
+    padding: 10px;
+    top: 0%;
+    right: 0%;
+}
+
+.header nav ul li {
+    padding: 10px;
+    display: inline;
+
+}
+
+.header h2 {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    padding-right: 20px;
+}
+
+.me {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    color: red;
+}
+
+.me h2 {
+    padding-left: 20px;
+}
+
+.me article {
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 20px;
+    width: 300px;
+    top: 0%;
+}
+
+.me figure {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    text-align: center;
+
+}
+
+.me figure img {
+    padding-top: 100px;
+    width: 375px;
+    height: 400px;
+}
+
+.first-project {
+    text-align: center;
+}
+
+.first-project div img{
+    width: 650px;
+    height: auto;
+}
+
+.code-refactor {
+    text-align: center;
+}
+
+.code-refactor div img {
+    width: 400px;
+    height: auto;
+}
+
+.contact-me {
+    text-align: center;
+}
+
+.footer {
+    position: relative;
+    background-color: aqua;
+    color: red;
+    width: 100%;
+    height: 150px;
+}
+
+.footer h1 {
+    text-align: center;
+    padding-top: 50px;
+}
