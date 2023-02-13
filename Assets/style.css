@@ -71,7 +71,7 @@ body {
     text-align: center;
 }
 
-.first-project div img{
+.first-project a img{
     width: 650px;
     height: auto;
 }
@@ -80,7 +80,7 @@ body {
     text-align: center;
 }
 
-.code-refactor div img {
+.code-refactor a img {
     width: 400px;
     height: auto;
 }
