@@ -1,11 +1,22 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color: white;
+    background-color: antiquewhite;
+    border-style: double;
+    border-color: maroon;
+    border-width: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .header {
     position: relative;
-    background-color: aqua;
-    color: red;
+    background-image: url(./IMG/header&footer-background.jpg);
+    color: green;
     width: 100%;
     height: 150px;
 }
@@ -21,7 +32,7 @@ body {
     right: 0%;
 }
 
-.header nav ul li {
+.header nav a {
     padding: 10px;
     display: inline;
 
@@ -35,49 +46,79 @@ body {
 }
 
 .me {
+    margin-top: 100px;
     width: 100%;
     height: 500px;
     position: relative;
-    color: red;
 }
 
 .me h2 {
     padding-left: 20px;
+    color: maroon;
+
 }
 
 .me article {
     position: absolute;
     padding-top: 100px;
-    padding-left: 20px;
+    padding-left: 100px;
     width: 300px;
     top: 0%;
+    line-height: 27px;
+    color: green;
 }
 
 .me figure {
     position: absolute;
     right: 0%;
     top: 0%;
-    text-align: center;
 
 }
 
 .me figure img {
     padding-top: 100px;
-    width: 375px;
+    padding-right: 100px;
+    width: auto;
     height: 400px;
+    
+}
+
+.my-work {
+    margin-top: 100px;
+}
+
+.my-work h2 {
+    padding-left: 20px;
+    color: maroon;
 }
 
 .first-project {
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
+
+.first-project h3 {
+    color: green;
+}
+
 
 .first-project a img{
     width: 650px;
     height: auto;
 }
 
+.first-project p {
+    color: green;
+}
+
 .code-refactor {
     text-align: center;
+    margin-bottom: 100px;
+}
+
+.code-refactor h3 {
+    color: green;
 }
 
 .code-refactor a img {
@@ -85,14 +126,20 @@ body {
     height: auto;
 }
 
+.code-refactor p {
+    color: green;
+}
+
 .contact-me {
     text-align: center;
+    margin-bottom: 100px;
+    color: red;
 }
 
 .footer {
     position: relative;
-    background-color: aqua;
-    color: red;
+    background-image: url(./IMG/header&footer-background.jpg);
+    color: green;
     width: 100%;
     height: 150px;
 }
@@ -101,3 +148,9 @@ body {
     text-align: center;
     padding-top: 50px;
 }
+
+#me-scroll
+
+#work-scroll
+
+#contact-scroll
